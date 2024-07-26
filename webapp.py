@@ -6,7 +6,7 @@ import shap
 import streamlit.components.v1 as components
 
 #cargar el modelo
-modelo, preprocesador = load('Modelo_final/arbol_final.joblib')
+modelo, preprocesador = load('arbol_final.joblib')
 
 def epaquetar(altura, estado_salud, inclinacion, especie, tipo_cazoleta,
               fase_vital, fuste, ahuecamiento, levantamiento_vereda, tipo_tierra,
